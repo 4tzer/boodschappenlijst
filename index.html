@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boodschappenlijkst</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <section>
+            <!-- ID op de table -->
+            <table id="table">
+                <tr>
+                    <th>Product</th>
+                    <th>Prijs</th>
+                    <th>Aantal</th>
+                    <th>Subtotaal</th>
+                </tr>
+                
+                <tr>
+                    <td class="Product">Brood </td>
+                    <td class="number productPrice">1.00</td>
+                    <td><input type="number" class="productQuantity" min="0" max="10000" value="0"></td>
+                    <td class="number productTotalCost">0</td>
+                </tr>
+                <tr>
+                    <td class="Product">Broccoli </td>
+                    <td class="number productPrice">0.99</td>
+                    <td><input type="number" class="productQuantity" min="0" max="10000" value="0"></td>
+                    <td class="number productTotalCost">0</td>
+                </tr>
+                <tr>
+                    <td class="Product">Krentebollen </td>
+                    <td class="number productPrice">1.20</td>
+                    <td><input type="number" class="productQuantity" min="0" max="10000" value="0"></td>
+                    <td class="number productTotalCost">0</td>
+                </tr>
+                <tr>
+                    <td class="Product">Noten </td>
+                    <td class="number productPrice">1.20</td>
+                    <td><input type="number" class="productQuantity" min="0" max="10000" value="0"></td>
+                    <td class="number productTotalCost">0</td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="Totaal">Totaal </td>
+                    <td class="number" id="totalCost">0</td>
+                </tr>
+
+            </table>
+        </section>
+
+
+    </div>
+    <input placeholder="Enter some text" name="name" id="input" />
+    <p id="log"></p>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+}
+tr, th, td {
+    border-bottom: 1px solid;
+    border-color: cadetblue;
+    border-collapse: collapse;
+    padding: 10px;
+
+}
+
+th {
+    text-align: left;
+}
+.number {
+    text-align: right;
+}
